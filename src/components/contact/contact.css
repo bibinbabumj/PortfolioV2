@@ -53,6 +53,12 @@
     
   }
 
+  .submit_btn{
+    padding: 1rem 1.5rem;
+    font-size: .9rem;
+}
+
+
   input::placeholder, textarea::placeholder {
     color: var(--color-primary-varient)
   }

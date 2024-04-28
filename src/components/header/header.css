@@ -1,0 +1,98 @@
+header {
+  height: 100vh;
+  margin-top: 7rem;
+  overflow: hidden;
+}
+
+.header-container {
+  text-align: center;
+  position: relative;
+}
+
+/* ================CvTalk========================== */
+
+.cv_talk {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* ================ SOCIALS========================== */
+
+.social__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 10%;
+  bottom: 3rem;
+}
+
+.social__links::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: var(--color-primary);
+}
+
+/* ================ PROFILE PIC========================== */
+
+.my-pro-pic {
+  width: 22rem;
+  height: 30rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10rem;
+  border-radius: 12rem 12rem 0 0;
+  border: 1px solid white;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+/* ================ Scroll Down========================== */
+
+.scroll-down {
+  position: absolute;
+  right: 10%;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+/* ============================MEDIA QURIES Large==================== */
+
+@media (max-width: 1024px) {
+    .scroll-down {
+        right: 5%;
+    }
+
+    .social__links{
+        left: 5%;
+    }
+}
+
+/* ============================MEDIA QURIES MEDIUM==================== */
+
+@media (max-width: 768px) {
+  .my-pro-pic {
+    width: 25rem;
+    height: auto;
+   
+  }
+  .social__links,
+  .scroll-down {
+    display: none;
+  }
+}
+
+/* ============================MEDIA QURIES SMALL==================== */
+
+@media (max-width: 600px) {
+  .social__links,
+  .scroll-down {
+    display: none;
+  }
+}

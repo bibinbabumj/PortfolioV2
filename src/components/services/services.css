@@ -1,0 +1,109 @@
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.services_card {
+  background: var(--color-primary-varient);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: var(--trasition);
+}
+
+.services_card:hover {
+  background: transparent;
+  border-color: var(--color-bg-varient);
+  cursor: default;
+}
+
+.services_head {
+  background: var(--color-bg-varient);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--color-bg-varient);
+  text-align: center;
+}
+
+.services_body {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.services_icon {
+  padding: 0.2rem;
+  width: 20%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.services_body small {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ============================MEDIA QURIES Large==================== */
+
+@media (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .services_card {
+    height: auto;
+  }
+
+  .services_head {
+    padding: 1rem;
+  }
+
+  .services_body {
+    padding: 1rem;
+  }
+  .services_icon {
+    padding: 0.1rem;
+    width: 15%;
+  }
+  .services_body small {
+    font-size: 0.9rem;
+  }
+}
+
+/* ============================MEDIA QURIES MEDIUM==================== */
+
+@media (max-width: 768px) {
+  
+}
+
+/* ============================MEDIA QURIES SMALL==================== */
+
+@media (max-width: 600px) {
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 75%;
+      }
+      .services_card {
+       
+      }
+    
+      .services_head {
+        padding: .5rem;
+      }
+    
+      .services_body {
+        padding: .5rem;
+      }
+      .services_icon {
+        padding: 0rem;
+        width: 8%;
+      }
+      .services_body small {
+        font-size: 0.8rem;
+      }
+      .services_head h3{
+        font-size: 1rem;
+      }
+}

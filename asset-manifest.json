@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PortfolioV2/static/css/main.6955f6ec.css",
+    "main.js": "/PortfolioV2/static/js/main.f79aecd0.js",
+    "static/media/dev2.jpg": "/PortfolioV2/static/media/dev2.f764dc7749bf974f22c9.jpg",
+    "static/media/pro-img.png": "/PortfolioV2/static/media/pro-img.a705576951b08aed8911.png",
+    "static/media/aster.jpg": "/PortfolioV2/static/media/aster.6a797b3a4073af7fa839.jpg",
+    "static/media/bg.jpg": "/PortfolioV2/static/media/bg.d91e2e236875ace9398d.jpg",
+    "static/media/heineken.jpg": "/PortfolioV2/static/media/heineken.a2bc7acc799627afdd73.jpg",
+    "static/media/fiat.jpeg": "/PortfolioV2/static/media/fiat.8846f07735df3f867037.jpeg",
+    "static/media/cv.pdf": "/PortfolioV2/static/media/cv.7fa317080a1a72b66faf.pdf",
+    "static/media/sharjah.jpg": "/PortfolioV2/static/media/sharjah.968085cebf725890ad03.jpg",
+    "static/media/sacyn.jpeg": "/PortfolioV2/static/media/sacyn.6c7c5177592967f256dd.jpeg",
+    "index.html": "/PortfolioV2/index.html",
+    "main.6955f6ec.css.map": "/PortfolioV2/static/css/main.6955f6ec.css.map",
+    "main.f79aecd0.js.map": "/PortfolioV2/static/js/main.f79aecd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6955f6ec.css",
+    "static/js/main.f79aecd0.js"
+  ]
+}
